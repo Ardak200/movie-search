@@ -1,0 +1,43 @@
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  gap: 20px;
+  .movie-desc {
+    display: flex;
+    justify-content: space-between;
+    .movie-details {
+      display: flex;
+      gap: 20px;
+      color: #555;
+    }
+  }
+
+  .movie-content {
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+    .movie-poster {
+      align-self: flex-start;
+    }
+
+    iframe {
+      flex-grow: 1;
+    }
+  }
+
+  .movie-people {
+    display: flex;
+    gap: 20px;
+    .movie-ratings {
+      display: flex;
+      gap: 15px;
+    }
+  }
+
+  .movie-plot {
+    margin-top: 0;
+  }
+}
